@@ -4,7 +4,7 @@ const { sequelize, Sequelize } = require('../db');
 const Item = sequelize.define('items', {
 	name: Sequelize.STRING,
 	image: Sequelize.STRING,
-	price: Sequelize.Integer,
+	price: Sequelize.INTEGER,
 	vegetarian: Sequelize.BOOLEAN,
 });
 
